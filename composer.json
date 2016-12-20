@@ -1,0 +1,41 @@
+{
+    "name": "abcflorida/bccart",
+    "description": "Cart Interface",
+    "keywords": [
+        "cartalyst",
+        "laravel",
+        "platform",
+        "bootstrap"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FL Web Design Service LLC",
+            "email": "flbrianc@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://www.flwebdesignservice.com"
+        }
+    ],
+    "require": {
+        "cartalyst/cart":"2.0"
+    }
+    "autoload": {
+        "classmap": [
+            
+        ],
+        "files": [
+            
+        ],
+        "psr-4": {
+            "Abcflorida\\Bccart\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable"
+}
