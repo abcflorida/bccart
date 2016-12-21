@@ -16,13 +16,19 @@
     ],
     "repositories": [
         {
-            "type": "composer",
-            "url": "http://www.flwebdesignservice.com"
+            "type": "vcs",
+            "url": "git@github.com:cartalyst/cart.git",
+            "reference":"dev-master"
+        },
+        {
+           "type": "vcs",
+            "url": "git@github.com:cartalyst/conditions.git"
         }
     ],
     "require": {
-        "cartalyst/cart":"2.0"
-    }
+        "cartalyst/cart":"2.0.2@dev"
+        ,"cartalyst/conditions":"dev-master"
+    },
     "autoload": {
         "classmap": [
             
@@ -36,6 +42,5 @@
     },
     "config": {
         "preferred-install": "dist"
-    },
-    "minimum-stability": "stable"
+    }
 }
