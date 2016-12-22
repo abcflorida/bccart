@@ -28,7 +28,6 @@
     ],
     "require": {
         "cartalyst/cart":"2.0.2@dev"
-        ,"cartalyst/conditions":"dev-master"
     },
     "autoload": {
         "classmap": [
