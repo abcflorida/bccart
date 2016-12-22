@@ -39,8 +39,5 @@
         "psr-4": {
             "Abcflorida\\Bccart\\": "src/"
         }
-    },
-    "config": {
-        "preferred-install": "dist"
     }
 }
